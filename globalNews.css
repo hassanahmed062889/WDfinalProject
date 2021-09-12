@@ -1,0 +1,218 @@
+body{
+    background-color: white; 
+    margin: 0;
+    padding: 0;
+      line-height: 1.6;
+
+}
+#header {
+    background-color: black;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+}
+#nav {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #black;
+  float: left;
+}
+
+#nav li{
+  float: left;
+}
+
+#nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+#nav a:hover {
+  background-color: #666666;
+}
+
+#footer {
+   left: 0;                              
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   overflow: hidden;
+
+}
+#footer ul{
+   list-style-type: none;
+   display: block;  
+   width: 50%;
+   padding: 0;
+   margin: 0;
+}
+#footer li{
+    float: left;
+}
+#footer a{
+    display: block;
+  color: grey;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+#footer a:hover {
+  background-color: #666666;
+}
+#info{
+display: block;
+    font-size: 15px;
+    padding: 30pt;
+}
+
+#main{
+    padding: 30pt;
+}
+
+#topStories{
+    width: 68%;
+    float: left;
+    overflow: hidden;
+}
+.story{
+    width: 50%;
+    overflow: hidden;
+    margin: auto;
+    float: left;
+    text-align: justify;
+}
+.story img,h2{
+    width: 80%;
+
+}
+.storytext  {
+    width: 85%;
+    text-align: justify;
+}
+.t{
+    font-size:12pt ;
+    display: block;
+}
+.story2{
+    width: 33%;
+    overflow: hidden;
+    float: left;
+    text-align: justify;
+}
+
+.story2 img{
+    width: 90%;
+
+}
+.storytext2  {
+    width: 90%;
+    text-align: justify;
+}
+#topVideos{
+    width: 30%;
+    float: left;
+    padding-top: 40pt;
+}
+
+.vid{
+    width: 95%;
+    height: 40%;
+}
+.vidtext{
+        padding-bottom: 10%;
+
+}
+#editorsNote
+{
+    text-align: justify;
+    padding-bottom: 30pt;
+}
+.slideshow-container{
+
+    width: 100%;
+    position: relative;
+}
+ .slidetext {
+        color: red;
+        font-size: 35px;
+        position: absolute;
+        bottom: 8px;
+        padding-top: -10%;
+        width: 100%;
+        font-weight: 900;
+        text-align: center;
+      }
+
+
+input[type=text], select,textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+#contform {
+  width: 70%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#mainStory1{
+        margin: 0;
+        display: block;
+        float: left;
+    width: 70%;
+    border: black 2pt;
+}
+#sidebar1{
+    background-color: lightgrey;
+    width: 30%;
+    float: left;
+    overflow: scroll;
+    height: 1000pt;
+    border-radius: 10px;
+
+}
+
+.story1{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    text-align: justify;
+}
+.story1 img{
+    width: 100%;
+
+}
+.storytext1  {
+    width: 100%;
+    text-align: justify;
+}
+#mainStory3{
+    margin: auto;
+    display: block;
+    width: 70%;
+}

@@ -1,0 +1,273 @@
+<!--need to create the videos folder / need 4 videos :
+
+asia.mp4
+bbc.mp4
+cnn.mp4
+abc.mp4
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="globalNews.css">
+    <link rel="stylesheet" href="./fonts/css/font-awesome.min.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="articulate.min.js"></script>
+
+
+<meta charset="UTF-8">
+<title >Global News</title>
+</head>
+    
+<body>
+<div id="header">
+    
+    <ul id="nav">
+        <li><a href="./globalNews.html"><img src = "./pictures/logo.jpeg" alt="logo" height="40" width=40 style="padding-top: 10%;"></a></li>
+        <li><a href="./page1.html">Sports</a></li>
+        <li><a href="./page2.html">Politics</a></li>
+        <li><a  href="./page3.html">Health</a></li>
+        <li><a href="./page4.html">Feedback</a></li>
+        <li><a id="contactform">Contact Us</a></li>
+    
+    </ul>
+
+</div>
+<div id="main" style="background-color: whitesmoke;">
+        <h1 style="text-align: center;">Care To Give us feedback?</h1>
+        <hr/>
+        <div class="stext" >
+            <h2 >Please fill the following form to let us know how we did.</h2>
+            <h4>Editors choice.</h4>
+        <div id="vote">
+        <fieldset  style="width:80%;margin: auto;">      
+            <legend>Your name:</legend> 
+            <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" value="John"><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" value="Doe"><br><br>
+ 
+        </fieldset> 
+        <fieldset style="width:80%;margin: auto;">      
+            <legend>How updated was the news?</legend>      
+                <input type="radio" id="contactChoice1"
+                       name="contact" value="Up to Date">
+                <label for="contactChoice1">Up to Date</label>
+                <input type="radio" id="contactChoice2"
+                       name="contact" value="Average">
+                <label for="contactChoice2">Average</label>
+                <input type="radio" id="contactChoice3"
+                       name="contact" value="Completely outdated">
+                <label for="contactChoice3">Completely outdated</label>
+        </fieldset>  
+        <fieldset style="width:80%;margin: auto;">      
+            <legend>How acccessible was the website?</legend>      
+                <input type="radio" id="contactChoice1"
+                       name="contact1" value="Perfect">
+                <label for="contactChoice1">Perfect</label>
+                <input type="radio" id="contactChoice2"
+                       name="contact1" value="Average">
+                <label for="contactChoice2">Average</label>
+                <input type="radio" id="contactChoice3"
+                       name="contact1" value="Terrible">
+                <label for="contactChoice3">Terrible</label>
+        </fieldset>  
+        <fieldset style="width:80%;margin: auto;">      
+            <legend>How did you like the color pallet?</legend>      
+                <input type="radio" id="contactChoice1"
+                       name="contact2" value="Perfect">
+                <label for="contactChoice1">Perfect</label>
+                <input type="radio" id="contactChoice2"
+                       name="contact2" value="Average">
+                <label for="contactChoice2">Average</label>
+                <input type="radio" id="contactChoice3"
+                       name="contact2" value="Terrible">
+                <label for="contactChoice3">Terrible</label>
+        </fieldset> 
+        <fieldset style="width:80%;margin: auto;">      
+            <legend>Were the subjects interesting?</legend>      
+                <input type="radio" id="contactChoice1"
+                       name="contact3" value="Perfect">
+                <label for="contactChoice1">Perfect</label>
+                <input type="radio" id="contactChoice2"
+                       name="contact3" value="Average">
+                <label for="contactChoice2">Average</label>
+                <input type="radio" id="contactChoice3"
+                       name="contact3" value="Terrible">
+                <label for="contactChoice3">Terrible</label>
+        </fieldset>   
+        <fieldset style="width:80%;margin: auto;">      
+            <legend>did you know the journalists?</legend>      
+                <input type="radio" id="contactChoice1"
+                       name="contact4" value="Somehow">
+                <label for="contactChoice1">Somehow</label>
+                <input type="radio" id="contactChoice2"
+                       name="contact4" value="All of Them">
+                <label for="contactChoice2">All of them</label>
+                <input type="radio" id="contactChoice3"
+                       name="contact4" value="Not at all">
+                <label for="contactChoice3">Not at all</label>
+        </fieldset>  
+        <fieldset style="width:80%;margin: auto;">      
+            <legend>would you recommend our website?</legend>      
+                <input type="radio" id="contactChoice1"
+                       name="contact11" value="Definitly">
+                <label for="contactChoice1">Definitly</label>
+                <input type="radio" id="contactChoice2"
+                       name="contact11" value="Maybe">
+                <label for="contactChoice2">Maybe</label>
+                <input type="radio" id="contactChoice3"
+                       name="contact11" value="Never">
+                <label for="contactChoice3">Never</label>
+        </fieldset>  
+        <fieldset style="width:80%;margin: auto;">      
+            <legend>do you have any disabilities?</legend>      
+                <input type="radio" id="contactChoice1"
+                       name="contact21" value="Hearing">
+                <label for="contactChoice1">hearing</label>
+                <input type="radio" id="contactChoice2"
+                       name="contact21" value="Vision">
+                <label for="contactChoice2">vision</label>
+                <input type="radio" id="contactChoice3"
+                       name="contact21" value="None">
+                <label for="contactChoice3">none</label>
+        </fieldset> 
+        <fieldset style="width:80%;margin: auto;">      
+            <legend>what is your overall impression?</legend>      
+                <input type="radio" id="contactChoice1"
+                       name="contact31" value="Perfect">
+                <label for="contactChoice1">Perfect</label>
+                <input type="radio" id="contactChoice2"
+                       name="contact31" value="Average">
+                <label for="contactChoice2">Average</label>
+                <input type="radio" id="contactChoice3"
+                       name="contact31" value="Terrible">
+                <label for="contactChoice3">Terrible</label>
+        </fieldset>   
+            <input id="svote" type="submit" value="Submit your vote" />      
+            
+
+        </div>
+        </div>
+        <div id="response">
+            <h3 id="rname">Thank you very much for your feedback</h3>
+            Your vote has been:
+            <div id="res">
+            </div>
+
+        </div>
+</div>
+
+
+
+
+
+
+
+
+<div id="contform" style="margin:4%">
+    <h2>Contact Us</h2>
+  <form action="./globalNews.html">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+    <label for="country">Type of Message</label>
+    <select id="country" name="country">
+      <option value="australia">Suggestion</option>
+      <option value="canada">Business Inquiry</option>
+    </select>
+    <textarea id="w3review" name="w3review" rows="4" cols="50">
+  type your message in here!
+  </textarea>
+    <input type="submit" value="Submit">
+  </form>    
+
+</div>
+<div id="footer">
+    <div style="float:left; width: 100%;">
+        <ul>
+            <li><a href="page1.html">Links</a>
+            </li>
+            <li><a href="page2.html">More links</a></li>
+            <li><a href="https://www.cnn.com/">CNN</a></li>
+
+        </ul>
+    </div>
+    <div id="info">
+        <i class="fa fa-phone" aria-hidden="true"></i>phone: (999)111-9999
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>email: Globalnews@gmail.com<br/>
+        &copy; 2021 Cable News Network.A Warner Media Company.All Rights Reserved.
+        <br/>
+        Disclaimer: the content of this practice website has been picked up from CNN World news online. 
+    </div>
+
+</div>
+
+
+    
+<script>
+    document.getElementById("contform").style.display = "none";
+     document.getElementById("response").style.display = "none";
+      var a = document.getElementById('contactform'); 
+        a.addEventListener('click', function(){ 
+            alert('Now you will be shown a form to submit your question.');
+            document.getElementById("contform").style.display = "block";
+            const myNode = document.getElementById("main");
+            myNode.innerHTML = '';
+
+
+
+        }, false);
+
+    var b =document.getElementById('svote');
+
+    b.addEventListener('click',function(){
+    let rtext="";
+        var rn= document.getElementById('rname');
+        rn.innerHTML="Thank you very much for your feedback ";
+        rn.innerHTML+=(" "+document.getElementById('fname').value+"-"+document.getElementById('lname').value+"!");
+        var res= document.getElementById('res');
+        res.innerHTML="";
+        document.getElementById("response").style.display = "block";
+        var arr=document.getElementById("vote").getElementsByTagName("fieldset");
+
+        for (let index = 1; index < arr.length; index++) {
+            console.log(arr[index].getElementsByTagName('legend')[0].innerHTML);
+            rtext+= arr[index].getElementsByTagName('legend')[0].innerHTML;
+            var ele = arr[index].getElementsByTagName("input");
+            answered=false;
+            for(i = 0; i < ele.length; i++) {
+                if(ele[i].checked)
+                {
+                    rtext+= ele[i].value;
+                    rtext+="</br>"
+                    answered=true;
+                }
+            }
+            if(!answered){
+                rtext+= "No Answer";
+                    rtext+="</br>"
+            }
+        }
+        var v = document.createElement('p');
+        console.log(rtext);
+        v.innerHTML=rtext;
+        res.appendChild(v);
+
+
+
+    },false);
+
+
+</script>
+</body>
+</html

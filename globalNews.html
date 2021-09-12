@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="globalNews.css">
+    <link rel="stylesheet" href="./fonts/css/font-awesome.min.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="articulate.min.js"></script>
+
+
+
+<meta charset="UTF-8">
+<title >Global News</title>
+</head>
+    
+<body class="bb">
+<div id="header">
+    
+    <div class="slideshow-container">
+      <div class="mySlides ">
+        <img src="./pictures/b2.jpeg" style="width:100%;    height: 150pt;">
+        <div class="slidetext">Global News</div>
+
+      </div>
+      <div class="mySlides ">
+        <img src="./pictures/b1.jpeg" style="width:100%;    height: 150pt;">
+        <div class="slidetext">Global News</div>
+
+      </div>
+      <div class="mySlides ">
+        <img src="./pictures/b3.jpeg" style="width:100%;    height: 150pt;">
+        <div class="slidetext">Global News</div>
+
+      </div>
+    </div>
+
+    <ul id="nav">
+        <li><img src = "./pictures/logo.jpeg" alt="logo" height="40" width=40 style="padding-top: 2%;"></li>
+        <li><a href="./page1.html">Sports</a></li>
+        <li><a href="./page2.html">Politics</a></li>
+        <li><a  href="./page3.html">Health</a></li>
+        <li><a href="./page4.html">Feedback</a></li>
+        <li><a id="contactform">Contact Us</a></li>
+        <li><a href="javascript:resize()" id="tfont">Increase Font Size</a></li>
+    
+    </ul>
+    
+</div>
+<div id="main" class="mm">
+    
+     <div id="topStories">
+        <h2>Highlights Of Today </h2>
+        <p>
+        <button onclick="jQuery('div.mm').articulate('speak');">Speak this Section</button>
+        <button onclick="jQuery().articulate('stop');">Stop</button>
+        <button onclick="jQuery().articulate('pause');">Pause</button>
+        <button onclick="jQuery().articulate('resume');">Resume</button>
+      </p>
+
+        <hr/>
+        <div class="story">
+            <div class="s1">
+            <h2>Manchester United</h2>
+            <img src="./pictures/mainstory1.jpeg">
+            <div class="storytext">
+                <h3>Cristiano Ronaldo scored two goals during his first game back at Manchester United on Saturday against Newcastle United in the Premier League.</h3>
+                <span class="t">
+                    The Portuguese superstar rejoined the club from Juventus this summer.
+                    <br/>
+                    He scored 118 goals in 292 games during his previous six-year stint with Manchester United before leaving for Real Madrid in 2009 for what was then a world record fee.
+                    <a href="page1.html">read more about this</a></span></div>
+                    <hr/></span>
+            </div>
+        </div>
+        <div class="story">
+            <div class="s2">
+            <h2>20th anniversary of 9/11</h2>
+            <img src="./pictures/mainstory2.jpeg">
+            <div class="storytext">
+                <h3>"9/11 is still killing," Sept. 11 first responder and survivor advocate says</h3>
+                <span class="t">
+                    "We gave hope to a broken city 20 years ago, and we're paying for it with our lives. And the first 20 years were hard on us. The next 20 years are going to decimate the 9/11 responder community. And I pray that our federal government evolves us with, as we evolve for the worse," Feal told CNN.
+                    <a href="page2.html">read more about this</a></div>
+                    <hr/>
+                </span>
+            </div>
+        </div>
+        <div class="story" >
+                        <div class="s3">
+            <h2>From the bus stop to after-school activities</h2>
+            <img src="./pictures/mainstory3.jpeg">
+            <div class="storytext">
+                <h3>here's how kids can help stay safe during this Delta variant surge</h3>
+                <span class="t">
+                    "Usually children are picked up incidentally as having (coronavirus). Someone in the family was infected, a friend was infected, so they got a PCR test. And they're found to be positive. ... Then they're fine," Offit said.
+
+                    <a href="page3.html">read more about this</a></div>
+                </span>
+            </div>
+        </div>
+        <div class="story">
+            <div class="s4">
+            <h2>5 ways to get your kids to wear masks </h2>
+            <img src="./pictures/mainstory4.jpeg">
+            <div class="storytext">
+                <h3>kids over the age of 2 wear face coverings in indoor public places to help reduce the spread of Covid-19.</h3>
+                <span class="t">
+                    We know that little humans pull and tug at the masks constantly, and kids don't just stop there. They let the tops fall beneath their noses and sometimes even yank the things down below their mouths, just because they can.
+                    <a href="page3.html">read more about this</a></div>
+                </span>
+            </div>
+        </div>
+
+
+
+     </div>
+
+     <div id="topVideos">
+        <h2>Top Videos Of the Day</h2>
+        <hr/>
+         <video class="vid" width="320" height="240" controls>
+              <source src="./videos/v1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="vidtext">Cristiano Ronaldo scores two goals on his return to Manchester United</div>
+        <video class="vid"  width="320" height="240" controls>
+              <source src="./videos/bbc.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="vidtext">He CDC analyzed 4,700 hospitalizations among adults between January 24 through July 24 through the COVID-19-Associated Hospitalization Surveillance Network (COVID-NET), which tracks laboratory-confirmed Covid-19 associated hospitalizations in 99 counties in 14 states representing about 10% of the US population.</div>
+
+        <div  id="editorsNote">
+        <h2>Editors Note of the Day</h2>
+        <hr/>
+         <span>
+                    As the pandemic spread, the perks of Amirzadeh's job diminished. Now restricted to domestic US flights, her work involves navigating not only the fear of catching Covid-19, but also the recent uptick in disruptive passengers.
+                    <a href="page1.html">read more about this</a>
+                </span>
+         </div>
+     </div>
+     
+</div>
+<div id="contform" style="margin:4%">
+  <h2>Contact Us</h2>
+  <form action="./globalNews.html">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+    <label for="country">Type of Message</label>
+    <select id="country" name="country">
+      <option value="australia">Suggestion</option>
+      <option value="canada">Business Inquiry</option>
+    </select>
+    <textarea id="w3review" name="w3review" rows="4" cols="50">
+  type your message in here!
+  </textarea>
+    <input type="submit" value="Submit">
+  </form>    
+
+</div>
+
+<div id="footer">
+    <div style="float:left; width: 100%;">
+        <ul>
+            <li><a href="page1.html">Links</a>
+            </li>
+            <li><a href="page2.html">More links</a></li>
+            <li><a href="https://www.cnn.com/">CNN</a></li>
+
+        </ul>
+    </div>
+    <div id="info">
+        <i class="fa fa-phone" aria-hidden="true"></i>phone: (999)111-9999
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>email: Globalnews@gmail.com<br/>
+        &copy; 2021 Cable News Network.A Warner Media Company.All Rights Reserved.
+        <br/>
+        Disclaimer: the content of this practice website has been picked up from CNN World news online. 
+        
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+    document.getElementById("contform").style.display = "none";
+
+      var slideIndex = 0;
+      showSlides();
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for(i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if(slideIndex > slides.length) {
+          slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+      }
+
+      var a = document.getElementById('contactform'); 
+        a.addEventListener('click', function(){ 
+            alert('Now you will be shown a form to submit your question.');
+            document.getElementById("contform").style.display = "block";
+            const myNode = document.getElementById("main");
+            myNode.innerHTML = '';
+
+
+
+        }, false);
+
+        var mult = -1;
+
+
+        function resize() {
+        mult = mult*-1;
+        if (document.body.style.fontSize == "") {
+        document.body.style.fontSize = "1.0em";
+        }
+        document.body.style.fontSize = parseFloat(document.body.style.fontSize) + (mult * 0.2) + "em";
+        if(document.getElementById('tfont').innerHTML=="Increase Font Size"){
+            document.getElementById('tfont').innerHTML="Decrease Font Size"
+        }else{
+            document.getElementById('tfont').innerHTML="Increase Font Size"
+        }
+        }
+</script>
+
+
+    
+
+</body>
+</html
